@@ -1,5 +1,6 @@
 import pandas as pd
 
+#comment for fun lol
 df0 = pd.read_csv('group_zero.csv')
 df0.drop(columns=df0.columns[0], axis=1, inplace=True)
 df0 = df0.astype(str)
